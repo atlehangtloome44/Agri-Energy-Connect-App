@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fff9;
+}
+
+.navbar {
+    background-color: #263b2d !important;
+    padding: 1rem;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero {
+    background-image: url('/images/farm-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #263b2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: #fff;
+    }
+
+.card-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+    .card-grid .card {
+        background-color: #263b2d;
+        color: white;
+        padding: 30px;
+        font-weight: bold;
+        border-radius: 8px;
+        width: 150px;
+        text-align: center;
+    }
+
+body.manage-layout {
+    background-color: #fdfdfd;
+    color: #263b2d; 
+}
+
+.manage-layout a {
+    color: #2d6a4f;
+}
+
+.manage-layout .form-control {
+    background-color: #fff;
+    color: #263b2d;
+}
+
+.manage-layout .btn-primary {
+    background-color: #2d6a4f;
+    border-color: #2d6a4f;
+}
+
+    .manage-layout .btn-primary:hover {
+        background-color: #22543d;
+        border-color: #22543d;
+    }
+
+.manage-layout .nav-link.active {
+    background-color: #2d6a4f;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Manage Account Sidebar */
+.manage-layout .nav.flex-column {
+    background-color: #e7f4e7;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.manage-layout .nav-link {
+    color: #263b2d !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+    .manage-layout .nav-link:hover {
+        background-color: #d2e8d2;
+        color: #1b3a1b !important;
+    }
+
+    .manage-layout .nav-link.active {
+        background-color: #2d6a4f;
+        color: #ffffff !important;
+        font-weight: bold;
+    }
+
+
+

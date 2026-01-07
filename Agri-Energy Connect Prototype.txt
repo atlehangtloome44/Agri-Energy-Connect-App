@@ -1,0 +1,92 @@
+Agri-Energy Connect Prototype
+=============================
+
+📅 Date: May 14, 2025
+📁 File Type: README.txt
+🧑‍💻 Created by: ST10259727
+
+------------------------------------------------------------
+
+📘 Overview:
+Agri-Energy Connect is a web-based ASP.NET Core MVC prototype designed to bridge sustainable agriculture and green energy through digital tools. 
+This prototype showcases core system functionality required for a real-world platform where farmers and employees collaborate.
+
+------------------------------------------------------------
+
+🛠️ Technologies Used:
+- ASP.NET Core MVC (.NET 8)
+- Entity Framework Core
+- SQL Server (LocalDB)
+- Razor Pages & Bootstrap 5
+- Identity for authentication and authorization
+
+------------------------------------------------------------
+
+🔑 Roles and Access:
+
+👨‍🌾 Farmer:
+- Register and log in
+- Add new products with name, category, and production date
+- View their own submitted products
+
+👩‍💼 Employee:
+- Register and log in
+- Add new farmers to the system
+- View all products from specific farmers
+- Filter products by date range or category
+
+------------------------------------------------------------
+
+📂 How to Run the Project:
+
+1. **Clone or Download** the full solution folder into Visual Studio.
+2. Ensure the following are installed:
+   - .NET SDK 8.0
+   - Visual Studio 2022 or later
+   - SQL Server LocalDB
+
+3. **Setup the Database**:
+   - Open the Package Manager Console in Visual Studio
+   - Run the commands:
+     > Add-Migration InitialCreate  
+     > Update-Database
+
+4. **Build and Run** the app (F5 or Ctrl+F5)
+
+5. **Register a new account**, select a role (Farmer or Employee), and log in.
+
+------------------------------------------------------------
+
+🧪 Test Accounts (optional - remove before submission if seeded manually):
+You can create test accounts via the Register page with any email. Roles are assigned during registration.
+
+------------------------------------------------------------
+
+🎨 UI Features:
+- Green-themed responsive layout (agriculture style)
+- Hero image and consistent visual branding
+- Sidebar navigation for manage account pages
+- Form validations and success feedback
+
+------------------------------------------------------------
+
+📌 Folder Structure:
+- /Controllers: Farmer and Employee logic
+- /Models: ApplicationUser, Farmer, Product
+- /Views: Razor Pages for each feature
+- /Areas/Identity: Login, Register, Manage Account Pages
+- /wwwroot/css: Custom themed stylesheet
+
+------------------------------------------------------------
+
+✔ Key Features Implemented:
+- Role-based authorization
+- Data validation and error handling
+- Filtering functionality
+- Responsive and readable UI styling
+- Good coding standards
+
+------------------------------------------------------------
+
+📩 Support or Questions:
+Please contact your lecturer or supervisor if you need help setting up this prototype.
